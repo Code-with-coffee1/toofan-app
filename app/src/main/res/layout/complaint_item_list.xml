@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.toofan.ComplaintList">
+
+    <ImageView
+        android:id="@+id/imain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/complaint_list_item" />
+
+    <ImageButton
+        android:id="@+id/edit_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="17dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imain"
+        app:layout_constraintEnd_toEndOf="@+id/imain"
+        app:srcCompat="@drawable/edit_details" />
+
+    <TextView
+        android:id="@+id/job_no"
+        android:layout_width="170dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="7dp"
+        android:text="Job No."
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imain"
+        app:layout_constraintStart_toStartOf="@+id/imain"
+        app:layout_constraintTop_toTopOf="@+id/imain" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="170dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="19dp"
+        android:text="Date"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imain"
+        app:layout_constraintStart_toStartOf="@+id/imain"
+        app:layout_constraintTop_toTopOf="@+id/job_no" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="170dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="19dp"
+        android:text="Time"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imain"
+        app:layout_constraintStart_toStartOf="@+id/imain"
+        app:layout_constraintTop_toTopOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="170dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="19dp"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imain"
+        app:layout_constraintStart_toStartOf="@+id/imain"
+        app:layout_constraintTop_toTopOf="@+id/time" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

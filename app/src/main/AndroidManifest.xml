@@ -25,6 +25,9 @@
             android:name=".ComplaintPage"
             android:exported="false" />
         <activity
+            android:name=".ComplaintList"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
