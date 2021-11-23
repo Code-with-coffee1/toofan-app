@@ -22,6 +22,9 @@
             android:name=".LogInPage"
             android:exported="false" />
         <activity
+            android:name=".ComplaintPage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

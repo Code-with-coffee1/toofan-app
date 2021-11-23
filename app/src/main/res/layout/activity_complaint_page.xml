@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toofan.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/bg1"
+        android:layout_width="465dp"
+        android:layout_height="794dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="-35dp"
+        android:scaleX="1.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg1" />
+
+    <ImageView
+        android:id="@+id/nav_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nav_bar" />
+
+    <ImageView
+        android:id="@+id/complaint_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/complaint" />
+
+    <ImageView
+        android:id="@+id/enter_date_box"
+        android:layout_width="85dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/white_box" />
+
+    <ImageView
+        android:id="@+id/enter_complaint_box"
+        android:layout_width="85dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/white_box" />
+
+    <ImageButton
+        android:id="@+id/proceed_button"
+        android:layout_width="131dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/button_bg" />
+
+    <TextView
+        android:id="@+id/proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:textColor="#000000"
+        android:textColorHint="#DA676767"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/proceed_button"
+        app:layout_constraintEnd_toEndOf="@+id/proceed_button"
+        app:layout_constraintStart_toStartOf="@+id/proceed_button"
+        app:layout_constraintTop_toTopOf="@+id/proceed_button" />
+
+    <ImageView
+        android:id="@+id/main_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mid_box" />
+
+    <EditText
+        android:id="@+id/edit_details"
+        android:layout_width="98dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Edit your details"
+        android:textColor="#000000"
+        android:textColorHint="#DA676767"
+        android:textSize="6sp"
+        app:layout_constraintBottom_toBottomOf="@+id/main_bg"
+        app:layout_constraintEnd_toEndOf="@+id/main_bg" />
+
+    <EditText
+        android:id="@+id/enter_date"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#DA676767"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enter_new_complaint"
+        android:layout_width="86dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter New Complaint"
+        android:textColor="#000000"
+        android:textColorHint="#DA676767"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/complaint_box"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/auto_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/find_req"
+        app:srcCompat="@drawable/white_box_bg" />
+
+    <ImageView
+        android:id="@+id/find_req"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_bg"
+        app:srcCompat="@drawable/white_box_bg" />
+
+    <ImageView
+        android:id="@+id/filter_ico"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        app:layout_constraintEnd_toStartOf="@+id/find_req"
+        app:layout_constraintTop_toBottomOf="@+id/main_bg"
+        app:srcCompat="@drawable/filter" />
+
+    <ImageView
+        android:id="@+id/circle_lock_ico"
+        android:layout_width="43dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintEnd_toStartOf="@+id/auto_lock"
+        app:layout_constraintTop_toBottomOf="@+id/main_bg"
+        app:srcCompat="@drawable/lock_circle" />
+
+    <EditText
+        android:id="@+id/edit_auto"
+        android:layout_width="246dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Auto Lock Account"
+        android:textColor="#000000"
+        android:textColorHint="#DA676767"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/filter_ico"
+        app:layout_constraintTop_toBottomOf="@+id/find_req" />
+
+    <TextView
+        android:id="@+id/edit_req"
+        android:layout_width="245dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:hint="Find your Requirements"
+        android:textColor="#000000"
+        android:textColorHint="#DA676767"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/auto_lock"
+        app:layout_constraintTop_toBottomOf="@+id/main_bg" />
+
+    <EditText
+        android:id="@+id/edit_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Date"
+        android:textColor="#000000"
+        android:textColorHint="#DA676767"
+        app:layout_constraintStart_toStartOf="@+id/main_bg"
+        app:layout_constraintTop_toTopOf="@+id/main_bg" />
+
+    <EditText
+        android:id="@+id/edit_time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Time"
+        android:textColor="#000000"
+        android:textColorHint="#DA676767"
+        app:layout_constraintStart_toStartOf="@+id/edit_date2"
+        app:layout_constraintTop_toBottomOf="@+id/edit_date2" />
+
+    <EditText
+        android:id="@+id/edit_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        android:textColor="#000000"
+        android:textColorHint="#DA676767"
+        app:layout_constraintStart_toStartOf="@+id/edit_time2"
+        app:layout_constraintTop_toBottomOf="@+id/edit_time2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
