@@ -5,20 +5,13 @@
       <map>
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/drawable/ic_password_box.xml" value="0.2526041666666667" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/drawable/text_box.xml" value="0.2526041666666667" />
+        <entry key="..\:/Intership stuff/toofan/app/src/main/res/layout/activity_complaint_list.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan/app/src/main/res/layout/activity_complaint_page.xml" value="0.4" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/layout/activity_forgot_password.xml" value="0.2697947214076246" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/layout/activity_lodge_complaint.xml" value="0.23645833333333333" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/layout/activity_log_in_page.xml" value="0.264" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/layout/activity_sign_up_page.xml" value="0.4" />
-        <entry key="..\:/vjz_codes/cwc_intern/toofan-app/app/src/main/res/layout/activity_complaint_list.xml" value="0.4" />
-        <entry key="..\:/vjz_codes/cwc_intern/toofan-app/app/src/main/res/layout/activity_complaint_page.xml" value="0.264" />
-        <entry key="..\:/vjz_codes/cwc_intern/toofan-app/app/src/main/res/layout/activity_forgot_password.xml" value="0.1503623188405797" />
-        <entry key="..\:/vjz_codes/cwc_intern/toofan-app/app/src/main/res/layout/activity_lodge_complaint.xml" value="0.2056159420289855" />
-        <entry key="..\:/vjz_codes/cwc_intern/toofan-app/app/src/main/res/layout/activity_log_in_page.xml" value="0.264" />
-        <entry key="..\:/vjz_codes/cwc_intern/toofan-app/app/src/main/res/layout/activity_main.xml" value="0.4" />
-        <entry key="..\:/vjz_codes/cwc_intern/toofan-app/app/src/main/res/layout/activity_sign_up_page.xml" value="0.2056159420289855" />
-        <entry key="..\:/vjz_codes/cwc_intern/toofan-app/app/src/main/res/layout/complaint_item_list.xml" value="0.4" />
-        <entry key="..\:/vjz_codes/cwc_intern/toofan-app/app/src/main/res/layout/complaint_list_item.xml" value="0.264" />
       </map>
     </option>
   </component>

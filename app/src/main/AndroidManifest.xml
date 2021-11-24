@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Toofan">
         <activity
+            android:name=".MultiServiceEngineerAcess"
+            android:exported="false" />
+        <activity
             android:name=".LodgeComplaint"
             android:exported="false" />
         <activity
