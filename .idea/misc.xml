@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_acknowledge.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_acknowledge_viewer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_dashboard_service_engineer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_dashboard_service_engineer2.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_edit_case.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_export_data.xml" value="0.22239583333333332" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_multi_service_engineer_acess.xml" value="0.536" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_page5.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_search_page.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_service_eng_acknowledge.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_service_eng_unacknowledge.xml" value="0.22239583333333332" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_track_page.xml" value="0.22239583333333332" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_view_cases.xml" value="0.23645833333333333" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/drawable/ic_password_box.xml" value="0.2526041666666667" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/drawable/text_box.xml" value="0.2526041666666667" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/layout/activity_complaint_list.xml" value="0.23645833333333333" />
