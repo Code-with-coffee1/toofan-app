@@ -3,6 +3,53 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/drawable/ic_log_in_btn.xml" value="0.104" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/acknowledge_case.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_acknowledge.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_acknowledge_viewer.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_complaint_list.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_complaint_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_dashboard_service_engineer.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_dashboard_service_engineer2.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_edit_case.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_export_data.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_lodge_complaint.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_log_in_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_main.xml" value="0.2151268115942029" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_multi_service_engineer_acess.xml" value="0.2151268115942029" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_page5.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_search_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_service_eng_acknowledge.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_service_eng_unacknowledge.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_sign_up_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_track_page.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/activity_view_cases.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/complaint_item_list.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/dashboard.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/otp.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/otp_2.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/otp_page.xml" value="0.24583333333333332" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/reset_password.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/reset_password_page.xml" value="0.24583333333333332" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/sign_up_otp.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/view_case.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/view_complaint.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/welcome.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/toofan-app/app/src/main/res/layout/welcome_page.xml" value="0.24583333333333332" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_acknowledge.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_acknowledge_viewer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_dashboard_service_engineer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_dashboard_service_engineer2.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_edit_case.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_export_data.xml" value="0.22239583333333332" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_multi_service_engineer_acess.xml" value="0.536" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_page5.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_search_page.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_service_eng_acknowledge.xml" value="0.23645833333333333" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_service_eng_unacknowledge.xml" value="0.22239583333333332" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_track_page.xml" value="0.22239583333333332" />
+        <entry key="..\:/Intership stuff/toofan-clone/app/src/main/res/layout/activity_view_cases.xml" value="0.23645833333333333" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/drawable/ic_password_box.xml" value="0.2526041666666667" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/drawable/text_box.xml" value="0.2526041666666667" />
         <entry key="..\:/Intership stuff/toofan/app/src/main/res/layout/activity_complaint_list.xml" value="0.23645833333333333" />

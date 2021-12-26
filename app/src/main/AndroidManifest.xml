@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Toofan">
         <activity
+            android:name=".view_cases"
+            android:exported="false" />
+        <activity
+            android:name=".track_page"
+            android:exported="false" />
+        <activity
+            android:name=".service_eng_unacknowledge"
+            android:exported="false" />
+        <activity
+            android:name=".service_eng_acknowledge"
+            android:exported="false" />
+        <activity
+            android:name=".search_page"
+            android:exported="false" />
+        <activity
+            android:name=".page_5"
+            android:exported="false" />
+        <activity
+            android:name=".export_data"
+            android:exported="false" />
+        <activity
+            android:name=".edit_case"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_Service_engineer2"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_Service_engineer"
+            android:exported="false" />
+        <activity
+            android:name=".acknowledge_viewer"
+            android:exported="false" />
+        <activity
+            android:name=".Acknowledge"
+            android:exported="false" />
+        <activity
             android:name=".MultiServiceEngineerAcess"
             android:exported="false" />
         <activity
@@ -29,6 +65,27 @@
             android:exported="false" />
         <activity
             android:name=".ComplaintList"
+            android:exported="false" />
+        <activity
+            android:name=".acknowledge_case"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".otp"
+            android:exported="false" />
+        <activity
+            android:name=".otp_2"
+            android:exported="false" />
+        <activity
+            android:name=".reset_password"
+            android:exported="false" />
+        <activity
+            android:name=".view_case"
+            android:exported="false" />
+        <activity
+            android:name=".view_complaint"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

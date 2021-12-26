@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg3"
+    tools:context=".dashboard">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText2"
+        android:layout_width="293dp"
+        android:layout_height="39dp"
+        android:background="@drawable/ic_rectangle3"
+        android:hint="CONTACT US"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText5"
+        android:layout_width="144dp"
+        android:layout_height="43dp"
+        android:background="@drawable/ic_rectangle3"
+        android:hint="Create New Job Case"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText6"
+        android:layout_width="131dp"
+        android:layout_height="44dp"
+        android:background="@drawable/ic_rectangle3"
+        android:hint="View Existing Case"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText3"
+        android:layout_width="297dp"
+        android:layout_height="43dp"
+        android:background="@drawable/ic_rectangle3"
+        android:hint="REPORT ISSUES"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textColor="#050505"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOB ASSIGNED"
+        android:textColor="#121111"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/ic_rectangle3"
+        android:hint="   Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText4"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/ic_rectangle3"
+        android:hint="   Email ID/ Mobile No."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="138dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479"
+        app:srcCompat="@drawable/group_64" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="136dp"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478"
+        app:srcCompat="@drawable/group_66" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="131dp"
+        android:layout_height="188dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477"
+        app:srcCompat="@drawable/group_65" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="93dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        app:srcCompat="@drawable/group_61" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="139dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        app:srcCompat="@drawable/group_62" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="120dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371"
+        app:srcCompat="@drawable/group_63" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="123dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745"
+        app:srcCompat="@drawable/call" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="287dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891"
+        app:srcCompat="@drawable/ic_rectangle18" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="285dp"
+        android:layout_height="23dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView57"
+        app:layout_constraintEnd_toEndOf="@+id/imageView57"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView57"
+        app:layout_constraintTop_toTopOf="@+id/imageView57"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908"
+        app:srcCompat="@drawable/search" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="124dp"
+        android:layout_height="59dp"
+        android:src="@drawable/button_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993"
+        android:onClick="search"/>
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textColor="#040303"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView57"
+        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintStart_toStartOf="@+id/imageView57"
+        app:layout_constraintTop_toTopOf="@+id/spinner2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="54dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/complaint" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORMS:"
+        android:textColor="#020202"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="146dp"
+        android:layout_height="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputEditText5"
+        app:layout_constraintEnd_toEndOf="@+id/textInputEditText5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textInputEditText5"
+        app:layout_constraintTop_toTopOf="@+id/textInputEditText5"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputEditText6"
+        app:layout_constraintEnd_toEndOf="@+id/textInputEditText6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textInputEditText6"
+        app:layout_constraintTop_toTopOf="@+id/textInputEditText6"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577"
+        app:srcCompat="@drawable/line32" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665"
+        app:srcCompat="@drawable/line32" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

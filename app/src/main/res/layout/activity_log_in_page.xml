@@ -124,17 +124,18 @@
             android:layout_width="match_parent"
             android:layout_height="40dp" />
 
-        <TextView
+        <Button
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@drawable/ic_log_in_btn"
+            android:background="@drawable/button_bg"
             android:gravity="center"
+            android:onClick="log_in"
             android:text="Log in"
             android:textColor="#000000"
             android:textSize="24sp"
-            android:onClick="log_in"/>
+            app:backgroundTint="#FF9800" />
 
     </LinearLayout>
 

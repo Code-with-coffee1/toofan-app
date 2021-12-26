@@ -1,10 +1,10 @@
 package com.example.toofan;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ComplaintPage extends AppCompatActivity {
 
@@ -13,4 +13,10 @@ public class ComplaintPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complaint_page);
     }
+
+    public void forgot_password(View view){
+        Intent intent=new Intent(view.getContext(),LodgeComplaint.class);
+        startActivity(intent);
+    }
+
 }

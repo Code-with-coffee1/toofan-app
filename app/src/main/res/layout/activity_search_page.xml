@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_bg"
+    tools:context=".search_page">
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView38"
+        app:srcCompat="@drawable/search_title" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView39">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp">
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Job Details:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_rectangle18"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp">
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Service\nContact Details:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_rectangle18"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_log_in_btn"
+            android:gravity="center"
+            android:text="Search"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <View
+            android:id="@+id/view14"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

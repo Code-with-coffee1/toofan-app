@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/acknowledge_bg"
+    tools:context=".acknowledge_viewer">
+
+    <LinearLayout
+        android:id="@+id/linearLayout18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Period:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="79dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName39"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_rectangle18"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="79dp"
+            tools:layout_editor_absoluteY="127dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/filter" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout18"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName40"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_rectangle18"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="28dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout21"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout25">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serial No:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_rectangle18"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view25"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Case No:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_rectangle18"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view22"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName26"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_rectangle18"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="DD/MM/YYYY"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Time:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName18"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_rectangle18"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="HH/MM"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view23"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_rectangle18"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/edit" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/linearLayout18"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit:"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="130dp"
+                    tools:layout_editor_absoluteY="6dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_rectangle18"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    tools:layout_editor_absoluteX="130dp"
+                    tools:layout_editor_absoluteY="28dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/acknowledge_icon" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/linearLayout18"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Acknowledge:"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="130dp"
+                    tools:layout_editor_absoluteY="6dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_rectangle18"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    tools:layout_editor_absoluteX="130dp"
+                    tools:layout_editor_absoluteY="28dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <View
+            android:id="@+id/view16"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E2E2E" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout21"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".view_cases">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName31"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_rectangle18"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Time"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName30"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_rectangle18"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName31"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/nav_bar4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/nav_bar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nav_bar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="5dp"
+            app:srcCompat="@drawable/open_case" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            app:srcCompat="@drawable/in_progress" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            app:srcCompat="@drawable/complete_case" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="10dp"
+            app:srcCompat="@drawable/ascending" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/date_range" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout14">
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/filter"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="418dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName34"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:background="@drawable/ic_rectangle18"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Filter your Requirments"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sort"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="460dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName36"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:background="@drawable/ic_rectangle18"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Sort your Requirements"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

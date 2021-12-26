@@ -1,11 +1,11 @@
 package com.example.toofan;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class LogInPage extends AppCompatActivity {
 
@@ -23,7 +23,7 @@ public class LogInPage extends AppCompatActivity {
         startActivity(intent);
     }
     public void log_in(View view){
-        Intent intent=new Intent(view.getContext(),LodgeComplaint.class);
+        Intent intent=new Intent(view.getContext(),otp_2.class);
         startActivity(intent);
     }
     public void rember(View view){

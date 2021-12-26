@@ -1,13 +1,13 @@
 package com.example.toofan;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.os.Handler;
 
 import java.util.ArrayList;
 
@@ -36,4 +36,10 @@ public class ComplaintList extends AppCompatActivity {
             rv.addItemDecoration(new DividerItemDecoration(rv.getContext(), DividerItemDecoration.VERTICAL));
         rv.setLayoutManager(new LinearLayoutManager(this));
     }
+
+    public void forgot_password(View view){
+        Intent intent=new Intent(view.getContext(),acknowledge_case.class);
+        startActivity(intent);
+    }
+
 }
