@@ -421,7 +421,10 @@
             android:gravity="center"
             android:hint="Write Your Comment"
             android:inputType="textEmailAddress" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
     </LinearLayout>
 
 

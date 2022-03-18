@@ -38,6 +38,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
+<<<<<<< HEAD
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="149dp"
@@ -64,6 +65,8 @@
         app:layout_constraintStart_toStartOf="@+id/imageButton6"
         app:layout_constraintTop_toTopOf="@+id/imageButton6" />
 
+=======
+>>>>>>> origin/master
     <LinearLayout
         android:id="@+id/linearLayout9"
         android:layout_width="0dp"
@@ -179,7 +182,10 @@
                 android:background="@drawable/ic_rectangle3"
                 android:ems="10"
                 android:inputType="textEmailAddress" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
         </LinearLayout>
 
         <LinearLayout
@@ -367,7 +373,10 @@
     </LinearLayout>
 
     <LinearLayout
+<<<<<<< HEAD
         android:id="@+id/linearLayout22"
+=======
+>>>>>>> origin/master
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
@@ -414,6 +423,7 @@
             android:ems="10"
             android:gravity="center"
             android:hint="Write Your Comment" />
+<<<<<<< HEAD
 
         <Space
             android:layout_width="20dp"
@@ -421,4 +431,9 @@
 
     </LinearLayout>
 
+=======
+    </LinearLayout>
+
+
+>>>>>>> origin/master
 </androidx.constraintlayout.widget.ConstraintLayout>
